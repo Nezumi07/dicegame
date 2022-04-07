@@ -1,4 +1,3 @@
-
 //main structure
 
 const roll = document.getElementById("roll"); 
@@ -40,7 +39,8 @@ roll.addEventListener("click", () => {
     player1 += myRoll;
 
     
-    score.textContent = (player1 > 10) ? `Keep Rollin!  ${player1}` : `Current Score: ${player1}`;
+    score.textContent = (player1 > 10) ? `Keep Rollin!! :  ${player1}` : `Current Score: ${player1}`;
+    
     
     
     if(myRoll === 1) {
